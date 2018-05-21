@@ -17,7 +17,7 @@ namespace FilmConX.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Film ConX";
+            Title = "FilmConX";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
